@@ -183,7 +183,7 @@ elif ais>=5:
 else:
     print("Invalid option")
 print(monthlycharge)'''
-'''import re
+import re
 pattern=r"^[A-Za-z][A-Za-z0-9_]*$"
 u=input("Enter the username:")
 m=re.match(pattern,u)
@@ -197,16 +197,15 @@ else:
     print("Invalid username")
 l=re.findall(r"\d",u)
 le=len(l)
-print("The total number of digits present is:",le)'''
-'''import numpy as np
+print("The total number of digits present is:",le)
+import numpy as np
 A=np.random.randint(0,19,size=20)
 B=A.reshape(4,5)
 print(B)
 print(B[1,:])
 print(B[:,2])
 B[B%2==0]=-1
-print(B)'''
-
+print(B)
 
 
 
